@@ -11,7 +11,7 @@ const Instagram = () => {
 
       {/* insta wala seen start here---------------------- */}
       <div className='' >
-        <h1 className='text-xl lg:text-3xl font-bold flex justify-center mb-10'>Follow Us on Instagram</h1>
+        <h1 className='text-3xl lg:text-3xl font-bold flex justify-center mb-10'>Related Products </h1>
         <div className="lg:w-[1180px] w-[300px] mx-auto flex-wrap lg:flex gap-4">
   {product.slice(1, 6).map((i, index) => (
     <div key={index} className="relative mx-auto m-5 lg:m-5 w-48 h-48 bg-white shadow-lg rounded-lg overflow-hidden">

@@ -1,39 +1,50 @@
 import React, { useState } from 'react'
 import { data } from '../data/data'
+import featureBanner from "../assets/featureBanner.jpg"
 const FeatureProductBanner = () => {
     const [product,setProduct]=useState(data)
   return (
     <div className='bg-[#E6E6E6] pb-10 h-full'>
       {/* bannaer satrt from here  */}
-      <div>
-  {/* Banner Start */}
+     <div>
+  
   <div className="bg-[#E6E6E6] h-full flex items-center justify-center py-10">
-    <div className="relative w-[1200px] h-[358px] bg-white flex overflow-hidden shadow-lg rounded-lg">
+    <div className="relative w-full max-w-[1200px] h-[358px] bg-white flex overflow-hidden shadow-lg rounded-lg">
       {/* Image Section */}
       <img
-        src="https://s3-alpha-sig.figma.com/img/736a/c341/802327b2806c879e76b9b8612d16e984?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CQhcdnEA-V563lI9hHtuYRXCutqwcmipIL~k-V9TOo82M78lrq1SvJd3J3mrqAt6MWSLJlfuvO90buRUqJc4x6zNL-OeBctxFahIfFkdatuIBNI~M5LiDDTqvFz2EJi8EomcCn9xtGGNy7-98BNY4EJr~~WQf7UyCRgWef4PDdS41UM6jKaT0UTs80NKztGupFXGVZ4sxVQogUOeRXKTE0Dfd-Kxn8f0bOFmCFHbhFhu1ljTiGOPsqLC83ecpYQkKyiQWC4N-GLmbhwXuPQ1QUd~wfUl17sDWkdjrch2gl8Pf2QZZ4Vnyhzayej1ltr2HpBCcUWnkZm4aiaVbibjsQ__"
+        src={featureBanner}
         alt="Banner"
         className="w-full h-full object-cover"
       />
 
       {/* Text Section Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-0 flex flex-col justify-center ml-[700px] p-10">
-        <h1 className=" text-white">SUMMER SALE</h1>
-        <h1 className="text-4xl font-bold text-white"><span className=' text-orange-500'>37%</span> OFF</h1>
-        <p className="mt-4 text-lg text-gray-400 w-[300px]">
+      <div className="absolute inset-0  flex flex-col justify-center items-start lg:items-start px-6 lg:px-10 lg:ml-[700px]">
+        <h1 className="text-white text-xl sm:text-2xl">SUMMER SALE</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-white">
+          <span className="text-orange-500">37%</span> OFF
+        </h1>
+        <p className="mt-4 text-sm sm:text-lg text-gray-200 max-w-[300px]">
           Add some descriptive text here to explain the content or purpose of
           the banner. Customize it as per your needs.
         </p>
-        <button className="mt-5 px-6 py-3 bg-[#00B207] w-[160px] text-white font-semibold rounded-full shadow-md flex items-center space-x-2 hover:bg-green-100">
-    <span>Shop Now</span>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 12h14" />
-    </svg>
-  </button>
+        <button className="mt-5 px-6 py-3 bg-[#00B207] w-[160px] text-white font-semibold rounded-full shadow-md flex items-center space-x-2 hover:bg-green-600">
+          <span>Shop Now</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-5 h-5"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 12h14" />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
 </div>
+
   {/* Banner End */}
   {/* cards start here-------------------- */}
   

@@ -47,8 +47,8 @@ const Footer = () => {
               dui, eget bibendum magna congue nec.
             </p>
             <p className="mt-4">
-              <span className="block">📞 (219) 555-0114</span>
-              <span className="block">✉️ Proxy@gmail.com</span>
+              <span className="block">📞 0333-414046-1</span>
+              <span className="block">✉️ mujtabaabid06@...m</span>
             </p>
           </div>
 
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 mt-8 pt-4 lg:flex justify-between items-center">
           <p className="text-gray-400 text-sm">
-            Ecobazar eCommerce © 2021. All Rights Reserved
+            Ecobazar eCommerce © 2021. All Rights Reserved By M.Mujtaba 
           </p>
           <div className="flex mt-4  space-x-4">
             <img
