@@ -63,12 +63,7 @@ const LogoNavbar = () => {
             </div>
           </div>
 
-          {/* Hamburger Icon for Small Screens */}
-          {/* <div className="md:hidden flex items-center">
-            <button className="text-gray-600 focus:outline-none">
-              <i className="fa-solid fa-bars fa-2x"></i>
-            </button>
-          </div> */}
+       
         </div>
       </nav>
     </div>
